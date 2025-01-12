@@ -92,7 +92,17 @@ nav {
 .nav-link:hover {
     color: #fff;
 }
-
+@media (min-width: 768px) {
+.navbar {
+    padding-left: 3rem !important; 
+  }
+}
+@media (max-width: 767px) {
+    .navbar {
+      padding-left: 0 !important; 
+  }
+}
+  
 /* section 1 */
 .text .first-text {
     font-weight: 600;
